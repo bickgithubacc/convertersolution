@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <LangVersion>9.0</LangVersion>
+	  <TargetFramework>net5.0</TargetFramework>
+	  <PackageId>KP.ConverterLibrary</PackageId>
+	  <Product>KP.ConverterLibrary</Product>
+	  <Description>Provides useful language extension methods for numeric types using .NET Core 5, C#. Originally created for teaching company developers unit teting.</Description>
+	  <Copyright>MIT</Copyright>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageIcon>converterNuGet.png</PackageIcon>
+	  <PackageIconUrl />
+	  <PackageProjectUrl>https://github.com/karenpayneoregon/kp-converters</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/karenpayneoregon/kp-converters</RepositoryUrl>
+	  <PackageTags>C# csharp netcore5</PackageTags>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Classes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\assets\converterNuGet.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
